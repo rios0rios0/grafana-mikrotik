@@ -95,7 +95,7 @@ sudo docker run -d -p 9116:9116 mashinkopochinko/snmp_exporter_mikrotik:latest
 
 ## Contributing
 
-Contributions are welcome. Please open an issue or submit a pull request.
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
