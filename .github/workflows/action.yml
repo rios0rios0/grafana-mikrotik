@@ -8,9 +8,9 @@ jobs:
     name: lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
       - name: Run Shellcheck
-        uses: azohra/shell-linter@latest
+        uses: azohra/shell-linter@v0.8.0
         with:
           path: "run.sh"
           severity: "warning, error"
